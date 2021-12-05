@@ -6,7 +6,7 @@
     
 	mysqli_query($conn, "INSERT INTO usuarios(nom,correo,tel) VALUES('$nombre','$correo','$telefono')");
     
-header("Location:index.php");
+header("Location:index2.php");
 	
 
 ?>

@@ -5,6 +5,6 @@ $cod = $_GET['cod'];
  
 mysqli_query($conn, "DELETE FROM usuarios WHERE cod=$cod");
  
-header("Location:index.php");
+header("Location:index2.php");
 
 ?>

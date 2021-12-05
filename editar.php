@@ -1,6 +1,6 @@
 <?php 
 include_once("conexion.php");
-include_once("index.php");
+include_once("index2.php");
 
 $codigo = $_GET['cod'];
  
@@ -44,7 +44,7 @@ while($mostrar = mysqli_fetch_array($querybuscar))
             <tr>
 				
                 <td colspan="2">
-				<a href="index.php">Cancelar</a>
+				<a href="index2.php">Cancelar</a>
 				<input type="submit" name="btnmodificar" value="Modificar" onClick="javascript: return confirm('¿Deseas modificar a este usuario?');">
 				</td>
             </tr>
@@ -66,7 +66,7 @@ while($mostrar = mysqli_fetch_array($querybuscar))
       
     $querymodificar = mysqli_query($conn, "UPDATE usuarios SET nom='$nombre1',correo='$correo1',tel='$telefono1' WHERE cod=$codigo1");
 
-  	echo "<script>window.location= 'index.php' </script>";
+  	echo "<script>window.location= 'index2.php' </script>";
     
 }
 ?>

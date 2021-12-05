@@ -71,7 +71,7 @@ function cancelarform() {
                 <td><input type="text" name="txtcorreo" required></td>
             </tr>
             <tr> 
-                <td>NTAREA  </td>
+                <td>N°tarea  </td>
                 <td><input type="number" name="txttelefono" ></td>
             </tr>
             <tr> 	
